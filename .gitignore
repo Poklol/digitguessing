@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model checkpoints and large files
+*.h5
+*.npz
+*.keras
+
+# OS
+.DS_Store
+Thumbs.db
